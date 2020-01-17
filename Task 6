@@ -1,0 +1,40 @@
+Name : Manqasana Lepota
+
+Task 6 : Find Commands
+
+1. recruit@umuzi-admin:~/Downloads$ cd ..
+
+   recruit@umuzi-admin:~$ find ./Downloads -name *.pdf
+    ./Downloads/Copy of Copy of AVENGERS.pdf
+    ./Downloads/TRENDY RESUMES FOR CREATIVES.pdf
+    ./Downloads/Copy of Research & User Interviews.pdf
+    ./Downloads/UMUZI HANDBOOK 2.0.pdf
+
+2. recruit@umuzi-admin:~$ mv ~/Downloads/'UMUZI HANDBOOK 2.0.pdf' ~/workspace
+
+   recruit@umuzi-admin:~$ ls
+    Desktop    Downloads  Pictures  Public    Templates  workspace
+    Documents  Music      Projects  Software  Videos
+
+   recruit@umuzi-admin:~$ cd workspace
+
+   recruit@umuzi-admin:~/workspace$ ls
+    CHANGELOG.md   README.md     summary.dm  'UMUZI HANDBOOK 2.0.pdf'
+    cohort.md      recruits.md   summary.md   umuzi.md
+
+3. recruit@umuzi-admin:~$ find -daystart -ctime 0 -print
+
+    .
+    ./Downloads
+    ./Downloads/UMUZI HANDBOOK 2.0.pdf
+    ./.ICEauthority
+    ./.cache/google-chrome/Default/Cache
+    ./.cache/google-chrome/Default/Cache/e1db9ca5f97f6599_0
+    ./.cache/google-chrome/Default/Cache/index-dir
+    ./.cache/google-chrome/Default/Cache/index-dir/the-real-index
+    ./.cache/google-chrome/Default/Cache/b49e8578cd25fc34_0
+    ./.cache/google-chrome/Default/Cache/2a11e3d7843e2e43_0
+    ./.cache/google-chrome/Default/Cache/9034d0c4b726cc73_0
+    ./.cache/google-chrome/Default/Cache/815b8ea4b077fc81_0
+    ./.cache/google-chrome/Default/Cache/856dd0174cb4d2ab_0recruit@umuzi-admin:~$   find  -daystart -ctime 0 -print
+

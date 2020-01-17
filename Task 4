@@ -1,0 +1,16 @@
+Name : Manqasana Lepota
+
+Task 4 : The locate command
+
+
+1. recruit@umuzi-admin:~/workspace$ locate umuzi.md
+    /home/recruit/workspace/.umuzi.md.swp
+    /home/recruit/workspace/umuzi.md
+
+2. recruit@umuzi-admin:~/workspace$ locate umuzi.md > search_result.md
+
+   recruit@umuzi-admin:~/workspace$ cat search_result.md
+    /home/recruit/workspace/.umuzi.md.swp
+    /home/recruit/workspace/umuzi.md
+
+

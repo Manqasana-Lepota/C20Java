@@ -1,0 +1,34 @@
+Name : Manqasana Lepota
+
+Task 3: Cat Commands
+
+1. recruit@umuzi-admin:~/workspace$ touch umuzi.md
+
+   recruit@umuzi-admin:~/workspace$ touch recruits.md
+
+   recruit@umuzi-admin:~/workspace$ touch cohort.md
+
+
+2. recruit@umuzi-admin:~/workspace$ vi umuzi.md
+
+   recruit@umuzi-admin:~/workspace$ vi recruits.md
+
+   recruit@umuzi-admin:~/workspace$ vi cohort.md
+
+
+3. recruit@umuzi-admin:~/workspace$ cat umuzi.md recruits.md cohort.md
+
+   
+4. recruit@umuzi-admin:~/workspace$ cat umuzi.md recruits.md cohort.md > summary.md
+
+   recruit@umuzi-admin:~/workspace$ cat summary.md
+
+
+5. recruit@umuzi-admin:~/workspace$ echo "The End" >> summary.md
+
+   recruit@umuzi-admin:~/workspace$ cat summary.md
+    Umuzi has talent pipeline of young people who are currently in training.
+    Recruits at umuzi work very hard.
+    We have many cohort at umuzi.
+    The End
+

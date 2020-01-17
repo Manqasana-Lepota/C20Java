@@ -1,0 +1,12 @@
+Name : Manqasana Lepota
+
+Task 2 :Absolute and Relative Paths
+
+
+1. recruit@umuzi-admin:~/workspace$ touch exercise.md
+
+
+2. recruit@umuzi-admin:~/workspace$ mv exercise.md /tmp
+
+
+3. recruit@umuzi-admin:~/workspace$ rm /tmp/exercise.md

@@ -1,0 +1,37 @@
+Name : Manqasana Lepota
+
+Task 1 : Basic Task
+
+1. A list, it gives you a listing of everything which is in the current directory.
+
+   recruit@umuzi-admin:~$ ls
+    Desktop     Downloads   my_files   Projects   Software   Templates   workspace
+    Documents   Music       Pictures   Public    'Task 1'    Videos
+
+
+2. Directory , it shows which directory I'm currently located at.
+
+   recruit@umuzi-admin:~$ pwd
+   /home/recruit
+
+
+3. recruit@umuzi-admin:~$ mkdir workspace
+
+   recruit@umuzi-admin:~$ cd wrkspace
+
+   recruit@umuzi-admin:~/workspace$ 
+
+
+4. Nothing , it means the workspace directory is empty.
+
+   recruit@umuzi-admin:~/workspace$ ls
+
+   recruit@umuzi-admin:~/workspace$
+
+
+5. recruit@umuzi-admin:~/workspace$ touch README.md
+
+
+6. recruit@umuzi-admin:~/workspace$ cp README.md CHANGELOG.md
+
+
